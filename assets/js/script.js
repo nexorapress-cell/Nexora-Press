@@ -178,11 +178,7 @@ function getBooksPerView() {
     return 3;
   }
 
-  if (window.innerWidth >= 520) {
-    return 2;
-  }
-
-  return 1;
+  return 2;
 }
 
 
