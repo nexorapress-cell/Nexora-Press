@@ -584,7 +584,6 @@ button {
 .cover {
   position: relative;
   width: 100%;
-  height: 345px;
   overflow: hidden;
   border-radius: 5px 13px 13px 5px;
   background: #eef1f5;
@@ -1689,14 +1688,13 @@ button {
   text-decoration: none;
 }
 .catalog-card .cover {
-  width: 100%;
-  aspect-ratio: 2 / 3;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   background: #10141a;
-  border: 1px solid rgba(0,0,0,.08);
+  border: 1.2px solid rgba(0,0,0,.08);
   box-shadow: 0 14px 28px rgba(10,20,35,.08);
 }
 .catalog-card .cover img {
